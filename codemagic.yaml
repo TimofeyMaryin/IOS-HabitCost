@@ -7,7 +7,7 @@ workflows:
       groups:
         - appstore_connect   # APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY
       vars:
-        CERT_PASSWORD: "cvasdjiotadsfkdslafsdfvKJKFLDfsdfads"   # после прогонa перенеси в Secrets
+        CERT_PASSWORD: "private_key_fdasklfsdjklfFKLJDKLFjkldvsdlkfOFJ$#*UI4899dfs"   # после прогонa перенеси в Secrets
     scripts:
       - name: Generate PKCS#8 private key
         script: |
